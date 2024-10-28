@@ -1,0 +1,14 @@
+{
+    "name": "your-name/markdown-to-acf-converter",
+    "description": "Convert Markdown content to ACF fields",
+    "type": "wordpress-plugin",
+    "require": {
+        "php": ">=7.0",
+        "erusev/parsedown": "^1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "MarkdownToAcf\\": "includes/"
+        }
+    }
+}
